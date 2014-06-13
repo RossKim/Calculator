@@ -17,7 +17,8 @@
             android:layout_width="@dimen/normal_key_size"
             android:layout_height="@dimen/normal_key_size"
             android:text="@string/key_7_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_8"
@@ -25,7 +26,8 @@
             android:layout_height="@dimen/normal_key_size"
             android:layout_toRightOf="@id/key_7"
             android:text="@string/key_8_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_9"
@@ -33,7 +35,8 @@
             android:layout_height="@dimen/normal_key_size"
             android:layout_toRightOf="@id/key_8"
             android:text="@string/key_9_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_4"
@@ -41,7 +44,8 @@
             android:layout_height="@dimen/normal_key_size"
             android:layout_below="@id/key_7"
             android:text="@string/key_4_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_5"
@@ -50,7 +54,8 @@
             android:layout_below="@id/key_8"
             android:layout_toRightOf="@id/key_4"
             android:text="@string/key_5_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_6"
@@ -59,7 +64,8 @@
             android:layout_below="@id/key_9"
             android:layout_toRightOf="@id/key_5"
             android:text="@string/key_6_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_1"
@@ -67,7 +73,8 @@
             android:layout_height="@dimen/normal_key_size"
             android:layout_below="@id/key_4"
             android:text="@string/key_1_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_2"
@@ -76,7 +83,8 @@
             android:layout_below="@id/key_5"
             android:layout_toRightOf="@id/key_1"
             android:text="@string/key_2_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_3"
@@ -85,7 +93,8 @@
             android:layout_below="@id/key_6"
             android:layout_toRightOf="@id/key_2"
             android:text="@string/key_3_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_0"
@@ -93,7 +102,8 @@
             android:layout_height="@dimen/normal_key_size"
             android:layout_below="@id/key_1"
             android:text="@string/key_0_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedNumber" />
 
         <Button
             android:id="@+id/key_equal"
@@ -102,7 +112,8 @@
             android:layout_below="@id/key_3"
             android:layout_toRightOf="@id/key_0"
             android:text="@string/key_equal_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedEqual" />
 
         <Button
             android:id="@+id/key_C"
@@ -110,7 +121,8 @@
             android:layout_height="@dimen/normal_key_size"
             android:layout_toRightOf="@id/key_9"
             android:text="@string/key_C_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedC" />
 
         <Button
             android:id="@+id/key_AC"
@@ -118,7 +130,8 @@
             android:layout_height="@dimen/normal_key_size"
             android:layout_toRightOf="@id/key_C"
             android:text="@string/key_AC_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedAC" />
 
         <Button
             android:id="@+id/key_div"
@@ -127,7 +140,8 @@
             android:layout_below="@id/key_C"
             android:layout_toRightOf="@id/key_6"
             android:text="@string/key_div_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedDiv" />
 
         <Button
             android:id="@+id/key_sign"
@@ -136,7 +150,8 @@
             android:layout_below="@id/key_AC"
             android:layout_toRightOf="@+id/key_div"
             android:text="@string/key_sign_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedSign" />
 
         <Button
             android:id="@+id/key_mul"
@@ -145,7 +160,8 @@
             android:layout_below="@id/key_div"
             android:layout_toRightOf="@id/key_3"
             android:text="@string/key_mul_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedMul" />
 
         <Button
             android:id="@+id/key_sub"
@@ -155,7 +171,8 @@
             android:layout_toRightOf="@id/key_equal"
             android:text="@string/key_sub_label"
             android:textSize="@dimen/key_label_size"
-            android:typeface="monospace" />
+            android:typeface="monospace"
+            android:onClick="clickedSub" />
 
         <Button
             android:id="@+id/key_add"
@@ -164,7 +181,8 @@
             android:layout_below="@id/key_sign"
             android:layout_toRightOf="@id/key_mul"
             android:text="@string/key_add_label"
-            android:textSize="@dimen/key_label_size" />
+            android:textSize="@dimen/key_label_size"
+            android:onClick="clickedAdd" />
     </RelativeLayout>
 
     <TextView
